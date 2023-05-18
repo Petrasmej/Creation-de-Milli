@@ -17,10 +17,21 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1 {
   color: #272A59;
   font-family: "Cinzel", serif;
   margin: 30px 0;
+}
+
+h2 {
+  font-size: 20px;
+  color: #272A59;
+  margin: 30px 0;
+}
+
+h3 {
+  color: #272A59;
+  text-decoration: underline;
 }
 
 .logo {
@@ -28,6 +39,9 @@ h1, h2, h3 {
   margin-top: 15px;
 }
 
+/*******************************
+        HEADER
+*******************************/
 .header {
   margin-bottom: 30px;
   margin-top: 5px; /*nefunguje*/
@@ -68,6 +82,9 @@ h1, h2, h3 {
   font-size: 17px;
 }
 
+/***************************
+        UVOD
+****************************/
 .main_image {
   -o-object-fit: cover;
      object-fit: cover;
@@ -100,6 +117,27 @@ h1, h2, h3 {
   display: block;
 }
 
+/*******************************
+     BIOLOGIQUE RECHERCHE
+*******************************/
+.kriteria {
+  text-align: left; /*nefunguje*/
+}
+
+.br_image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#lotion {
+  display: none;
+}
+
+/*******************************
+        FOOTER
+*******************************/
 .footer {
   background-color: #F2DFBB;
   margin-top: 30px;
@@ -140,10 +178,13 @@ h1, h2, h3 {
   .menu__link:hover {
     border-radius: 5px;
   }
+  /*******************************
+      UVOD
+  *******************************/
   .main__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, minmax 1fr, 500px);
+    grid-template-rows: repeat(2, minmax 1fr, 500px); /*nefunguje minmax*/
     align-items: center;
     gap: 30px;
   }
@@ -168,6 +209,36 @@ h1, h2, h3 {
     grid-template-rows: repeat(2, 1fr); /*nefunguje minmax*/
     gap: 5px;
   }
+  /*******************************
+      BIOLOGIQUE RECHERCHE
+  *******************************/
+  .section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax 1fr, 500px; /*nefunguje minmax*/
+    align-items: center;
+    gap: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  #lotion {
+    display: block;
+  }
+  #produkty {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+  #metodologie {
+    grid-column: 2/4;
+    grid-row: 1;
+  }
+  #csr {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+  /*******************************
+      FOOTER
+  *******************************/
   .footer {
     background-color: #F2DFBB;
   }

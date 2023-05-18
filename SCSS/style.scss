@@ -23,10 +23,22 @@ body {
     
 }
 
-h1, h2, h3 {
+h1 {
     color: $color-headlines;
     font-family: $font-headlines;
     margin: $spacing 0;
+}
+
+
+h2 {
+    font-size: 20px;
+    color: $color-headlines;
+    margin: $spacing 0; 
+}
+
+h3 {
+    color: $color-headlines;
+    text-decoration: underline;
 }
 
 .logo {
@@ -34,6 +46,12 @@ h1, h2, h3 {
     margin-top: $spacing/2;
     
 }
+
+/*******************************
+        HEADER
+*******************************/
+
+
 
 .header {
     margin-bottom: $spacing;
@@ -84,7 +102,9 @@ h1, h2, h3 {
     }
 
 }
-
+/***************************
+        UVOD
+****************************/
 .main_image{
     object-fit: cover;
     width: 100%;
@@ -115,6 +135,31 @@ h1, h2, h3 {
 .gallery__item:nth-child(3) {
     display:block;
 }
+
+/*******************************
+     BIOLOGIQUE RECHERCHE
+*******************************/
+
+
+.kriteria {
+    text-align: left;  /*nefunguje*/
+}
+
+.br_image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#lotion {
+    display:none;
+}
+
+
+
+/*******************************
+        FOOTER
+*******************************/
 
 .footer {
     background-color: $color-special;
@@ -169,11 +214,14 @@ h1, h2, h3 {
         }
     }
     
+    /*******************************
+        UVOD
+    *******************************/
 
     .main__grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, minmax (1fr, 500px));
+        grid-template-rows: repeat(2, minmax (1fr, 500px));      /*nefunguje minmax*/
         align-items: center;
         gap: $spacing;
     }
@@ -204,6 +252,46 @@ h1, h2, h3 {
         grid-template-rows: repeat(2, 1fr); /*nefunguje minmax*/
         gap: 5px;  
     }
+
+    /*******************************
+        BIOLOGIQUE RECHERCHE
+    *******************************/
+
+    .section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: minmax (1fr, 500px);      /*nefunguje minmax*/
+        align-items: center;
+        gap: $spacing;
+        padding-right: $spacing;
+        padding-left: $spacing;
+    }
+
+    #lotion {
+        display: block;
+    }
+
+
+    #produkty {
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+
+    #metodologie {
+        grid-column: 2/4;
+        grid-row: 1;
+    }
+
+    #csr {
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+
+
+
+    /*******************************
+        FOOTER
+    *******************************/
 
     .footer {
         background-color: $color-special;
