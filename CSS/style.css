@@ -92,13 +92,14 @@ h3 {
   height: 100%;
 }
 
-.grid__text {
+.grid__textL {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.main__grid:nth-child(3) {
-  display: none; /*nefunguje*/
+.grid__textR {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .main__gallery {
@@ -120,8 +121,12 @@ h3 {
 /*******************************
      BIOLOGIQUE RECHERCHE
 *******************************/
+.brh1 {
+  font-size: 2em;
+}
+
 .kriteria {
-  text-align: left; /*nefunguje*/
+  text-align: left;
 }
 
 .br_image {
@@ -131,7 +136,8 @@ h3 {
   height: 100%;
 }
 
-#vip {
+#vip,
+#lotion {
   display: none;
 }
 
@@ -143,6 +149,9 @@ h3 {
   text-align: justify;
   margin: 0 auto;
   padding: 0 30px;
+}
+.treatments__nabidka {
+  text-align: center;
 }
 .treatments__ritual {
   margin-bottom: 0;
@@ -176,14 +185,14 @@ h3 {
   width: 50%;
   height: 50%;
   border-radius: 50%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 /*******************************
         KONTAKT
 *******************************/
 .space {
-  margin-top: 15px;
+  padding-top: 15px;
 }
 
 .map {
@@ -249,8 +258,16 @@ h3 {
     align-items: center;
     gap: 30px;
   }
-  .grid__text {
+  .grid__textR,
+  .grid__textL {
     text-align: left;
+  }
+  .grid__textL {
+    text-align: left;
+    padding-left: 90px;
+  }
+  .grid__textR {
+    padding-left: 0;
   }
   #quote_img {
     grid-column: 2/span2;
@@ -275,8 +292,8 @@ h3 {
   *******************************/
   .brh1 {
     text-align: left;
-    padding-left: 30px;
     margin-bottom: 0;
+    margin-top: 0;
   }
   .section {
     display: grid;
@@ -285,7 +302,8 @@ h3 {
     align-items: center;
     gap: 30px;
   }
-  #vip {
+  #vip,
+  #lotion {
     display: block;
   }
   #produkty {
@@ -304,7 +322,8 @@ h3 {
       NABIDKA A CENIK
   *******************************/
   .treatments {
-    padding-right: 300px;
+    padding-right: 180px;
+    padding-left: 90px;
   }
   /*******************************
       ABOUT ME
@@ -330,7 +349,6 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: minmax 1fr, 500px;
     gap: 60px;
-    padding-left: 30px;
     margin-right: 10%;
   }
   .contact_h2 {
@@ -353,7 +371,8 @@ h3 {
   }
   .footer__icon {
     margin-left: 35%;
-    margin-top: 10px; /*nefunguje posunutí nahoru kvůli odkazu*/
+    margin-top: 10px; /*nefunguje posunutí nahoru kvůli odkazu, musela jsem ikonu zmensit paddingem*/
+    padding-bottom: 5px;
   }
   .footer__icon:hover {
     border-radius: 5px;
@@ -361,5 +380,10 @@ h3 {
   }
   .footer__copyright {
     margin-top: 0;
+  }
+}
+@media (min-width: 800px) and (min-width: 1100px) {
+  #lotion {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
