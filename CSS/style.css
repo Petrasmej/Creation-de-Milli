@@ -205,6 +205,14 @@ h3 {
   height: 100%;
 }
 
+.formfield {
+  margin-bottom: 15px;
+}
+
+.formfield label {
+  display: block;
+}
+
 /*******************************
         FOOTER
 *******************************/
@@ -325,6 +333,9 @@ h3 {
     padding-right: 180px;
     padding-left: 90px;
   }
+  .treatments__nabidka {
+    text-align: left;
+  }
   /*******************************
       ABOUT ME
   *******************************/
@@ -356,6 +367,11 @@ h3 {
   }
   .map {
     padding-top: 60px;
+  }
+  .formfield,
+  .form {
+    text-align: left;
+    padding-left: 90px;
   }
   /*******************************
       FOOTER

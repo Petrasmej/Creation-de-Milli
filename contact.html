@@ -29,3 +29,30 @@ title: contact
     </div>
 </div>
 
+<h2 class="form" >Kontaktní formulář</h2>
+<form action="petrasmej@seznam.cz" method="post" >
+    <div class="formfield">
+        <label for="jmeno"> Jméno a Příjmení </label>
+        <input type="text" name="jmeno" id="jmeno" maxlength="20" requiered>
+    </div>
+
+    <div class="formfield">
+        <label for="tel"> Telefon </label>
+        <input type="tel" name="tel" id="tel" maxlength="9" requiered>
+    </div>
+    
+    <div class="formfield">
+        <label for="email"> Email </label>
+        <input type="email" name="email" id="email" maxlength="20" requiered>
+    </div>
+    
+    <div class="formfield">
+        <label for="text"> Text </label>
+        <textarea name="text" id="text" cols="30" rows="10" maxlength="50" requiered></textarea>
+    </div>
+    
+    <div class="formfield">
+        <input class="button" type="submit" name="odeslat" id="odeslat"value="Odeslat formulář"> </input>
+    </div>
+</form>
+
