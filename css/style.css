@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -31,7 +30,6 @@ h2 {
 
 h3 {
   color: #272A59;
-  text-decoration: underline;
 }
 
 .logo {
@@ -379,6 +377,7 @@ h3 {
     gap: 60px;
     margin-right: 10%;
     align-items: center;
+    padding-left: 5%;
   }
   .contact_h2 {
     margin-top: 0;
@@ -405,7 +404,7 @@ h3 {
   }
   .footer__icon {
     margin-left: 35%;
-    margin-top: 10px; /*nefunguje posunutí nahoru kvůli odkazu, musela jsem ikonu zmensit paddingem*/
+    margin-top: 10px;
     padding-bottom: 5px;
   }
   .footer__icon:hover {

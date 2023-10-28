@@ -38,7 +38,6 @@ h2 {
 
 h3 {
     color: $color-headlines;
-    text-decoration: underline;
 }
 
 .logo {
@@ -445,6 +444,7 @@ margin: auto;
         gap: $spacing*2;
         margin-right: 10%;
         align-items: center;
+        padding-left: 5%;
     }
 
     .contact_h2{
@@ -478,7 +478,7 @@ margin: auto;
 
         &__icon {
             margin-left: 35%;
-            margin-top: $spacing/3;                 /*nefunguje posunutí nahoru kvůli odkazu, musela jsem ikonu zmensit paddingem*/
+            margin-top: $spacing/3;       
             padding-bottom: 5px;
 
         }
