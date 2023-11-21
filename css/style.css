@@ -2,7 +2,9 @@ html {
   box-sizing: border-box;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: inherit;
 }
 
@@ -17,19 +19,19 @@ body {
 }
 
 h1 {
-  color: #272A59;
+  color: #272a59;
   font-family: "Cinzel", serif;
   margin: 30px 0;
 }
 
 h2 {
-  font-size: 20px;
-  color: #272A59;
+  font-size: 25px;
+  color: #272a59;
   margin: 30px 0;
 }
 
 h3 {
-  color: #272A59;
+  color: #272a59;
 }
 
 .logo {
@@ -59,24 +61,24 @@ h3 {
   display: none;
 }
 .menu__item {
-  color: #272A59;
-  border-bottom: 1px solid #272A59;
+  color: #272a59;
+  border-bottom: 1px solid #272a59;
 }
 .menu__link {
   display: block;
   text-decoration: none;
   padding: 30px;
-  color: #272A59;
+  color: #272a59;
 }
 .menu__link:hover {
-  background-color: #F2DFBB;
+  background-color: #f2dfbb;
 }
 .menu__checkbox:checked ~ .menu__list {
   display: block;
 }
 .menu__toggler {
   cursor: pointer;
-  color: #272A59;
+  color: #272a59;
   font-size: 17px;
 }
 
@@ -228,7 +230,7 @@ h3 {
         FOOTER
 *******************************/
 .footer {
-  background-color: #F2DFBB;
+  background-color: #f2dfbb;
   margin-top: 30px;
   padding: 15px;
 }
@@ -259,7 +261,7 @@ h3 {
   }
   .menu__item {
     border-bottom: 0;
-    border-right: 1px solid #272A59;
+    border-right: 1px solid #272a59;
   }
   .menu__link {
     padding: 0 30px;
@@ -268,8 +270,8 @@ h3 {
     border-radius: 5px;
   }
   /*******************************
-      UVOD
-  *******************************/
+        UVOD
+    *******************************/
   .main__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -307,8 +309,8 @@ h3 {
     gap: 5px;
   }
   /*******************************
-      BIOLOGIQUE RECHERCHE
-  *******************************/
+        BIOLOGIQUE RECHERCHE
+    *******************************/
   .brh1 {
     text-align: left;
     margin-bottom: 0;
@@ -338,8 +340,8 @@ h3 {
     grid-row: 1;
   }
   /*******************************
-      NABIDKA A CENIK
-  *******************************/
+        NABIDKA A CENIK
+    *******************************/
   .treatments {
     padding-right: 180px;
     padding-left: 90px;
@@ -348,8 +350,8 @@ h3 {
     text-align: left;
   }
   /*******************************
-      ABOUT ME
-  *******************************/
+        ABOUT ME
+    *******************************/
   .about_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -368,8 +370,8 @@ h3 {
     margin: 0;
   }
   /*******************************
-      KONTAKT
-  *******************************/
+        KONTAKT
+    *******************************/
   .contact_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -386,15 +388,15 @@ h3 {
     padding-top: 60px;
   }
   /*.formfield,
-  .form {
-      text-align: left;
-      padding-left: $spacing*3;
-  }*/
+    .form {
+        text-align: left;
+        padding-left: $spacing*3;
+    }*/
   /*******************************
-      FOOTER
-  *******************************/
+        FOOTER
+    *******************************/
   .footer {
-    background-color: #F2DFBB;
+    background-color: #f2dfbb;
   }
   .footer__flexbox {
     display: flex;
@@ -409,7 +411,7 @@ h3 {
   }
   .footer__icon:hover {
     border-radius: 5px;
-    color: #272A59;
+    color: #272a59;
   }
   .footer__copyright {
     margin-top: 0;
