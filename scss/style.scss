@@ -225,7 +225,7 @@ h3 {
         KONTAKT
 *******************************/
 .space {
-  padding-top: $spacing/2;
+  padding-top: calc($spacing / 2);
 }
 
 .map {
@@ -238,7 +238,7 @@ h3 {
 }
 
 .formfield {
-  margin-bottom: $spacing/2;
+  margin-bottom: calc($spacing / 2);
 }
 
 .formfield label {
@@ -252,7 +252,7 @@ h3 {
 .footer {
   background-color: $color-special;
   margin-top: $spacing;
-  padding: $spacing/2;
+  padding: calc($spacing / 2);
 
   &__icon {
     height: 40px;
@@ -275,7 +275,7 @@ h3 {
     width: 420px;
     position: absolute;
     top: 0;
-    left: -50px;
+    left: -55px;
   }
 
   .menu {
@@ -468,7 +468,7 @@ h3 {
 
     &__icon {
       margin-left: 35%;
-      margin-top: $spacing/3;
+      margin-top: calc($spacing / 3);
       padding-bottom: 5px;
     }
 
