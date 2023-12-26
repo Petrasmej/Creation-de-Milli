@@ -43,8 +43,7 @@ h3 {
 }
 
 .logo {
-  height: 200px;
-  margin-top: $spacing/2;
+  height: 250px;
 }
 
 /*******************************
@@ -53,7 +52,6 @@ h3 {
 
 .header {
   margin-bottom: $spacing;
-  margin-top: 5px; /*nefunguje*/
 }
 
 .menu {
@@ -95,6 +93,9 @@ h3 {
     cursor: pointer;
     color: $color-headlines;
     font-size: 17px;
+    border: 1px solid $color-special;
+    background-color: #f2dfbb;
+    padding: 10px;
   }
 }
 /***************************
@@ -264,11 +265,16 @@ h3 {
     align-items: center;
     justify-content: space-between;
     padding: $spacing;
+    position: relative;
+    padding-bottom: $spacing * 4;
   }
 
   .logo {
     margin-top: 0;
     margin-left: $spacing;
+    position: absolute;
+    top: 0;
+    left: -55px;
   }
 
   .menu {
@@ -429,7 +435,6 @@ h3 {
     gap: $spacing * 2;
     margin-right: 10%;
     align-items: center;
-    padding-left: 5%;
   }
 
   .contact_h2 {
