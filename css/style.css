@@ -27,7 +27,8 @@ h1 {
 h2 {
   font-size: 25px;
   color: #272a59;
-  margin: 30px 0;
+  margin-bottom: 30px;
+  margin-top: 60px;
 }
 
 h3 {

@@ -35,7 +35,8 @@ h1 {
 h2 {
   font-size: 25px;
   color: $color-headlines;
-  margin: $spacing 0;
+  margin-bottom: $spacing;
+  margin-top: $spacing * 2;
 }
 
 h3 {
