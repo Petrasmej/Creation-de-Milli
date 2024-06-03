@@ -36,61 +36,60 @@ title: contact
       >.
     </p>
   </div>
-  <div class="map">
-    <iframe
-      src="https://frame.mapy.cz/s/kucanafope"
-      width="500"
-      height="366"
-      frameborder="0"
-    ></iframe>
-  </div>
-</div>
+  <div class="grid__right">
+    <div class="map">
+      <iframe
+        src="https://frame.mapy.cz/s/kucanafope"
+        width="500"
+        height="366"
+        frameborder="0"
+      ></iframe>
+    </div>
+    <div class="formular">
+      <h2 class="form">Kontaktní formulář</h2>
+      <form
+        action="petrasmej@seznam.cz"
+        method="post"
+        netlify-honeypot="bot-field"
+        data-netlify="true"
+      >
+        <div class="formfield">
+          <label for="jmeno"> Jméno <span class="required">*</span></label>
+          <input type="text" name="jmeno" id="jmeno" maxlength="30" required />
+        </div>
 
-<div class="contact_grid">
-  <div class="grid__textL">
-    <h2 class="form">Kontaktní formulář</h2>
-    <form
-      action="petrasmej@seznam.cz"
-      method="post"
-      netlify-honeypot="bot-field"
-      data-netlify="true"
-    >
-      <div class="formfield">
-        <label for="jmeno"> Jméno <span class="required">*</span></label>
-        <input type="text" name="jmeno" id="jmeno" maxlength="30" required />
-      </div>
+        <div class="formfield">
+          <label for="tel"> Telefon <span class="required">*</span> </label>
+          <input type="tel" name="tel" id="tel" maxlength="9" required />
+        </div>
 
-      <div class="formfield">
-        <label for="tel"> Telefon <span class="required">*</span> </label>
-        <input type="tel" name="tel" id="tel" maxlength="9" required />
-      </div>
+        <div class="formfield">
+          <label for="email"> E-mail <span class="required">*</span> </label>
+          <input type="email" name="email" id="email" maxlength="30" required />
+        </div>
 
-      <div class="formfield">
-        <label for="email"> E-mail <span class="required">*</span> </label>
-        <input type="email" name="email" id="email" maxlength="30" required />
-      </div>
+        <div class="formfield">
+          <label for="text"> Text <span class="required">*</span> </label>
+          <textarea
+            name="text"
+            id="text"
+            cols="30"
+            rows="10"
+            maxlength="50"
+            required
+          ></textarea>
+        </div>
 
-      <div class="formfield">
-        <label for="text"> Text <span class="required">*</span> </label>
-        <textarea
-          name="text"
-          id="text"
-          cols="30"
-          rows="10"
-          maxlength="50"
-          required
-        ></textarea>
-      </div>
-
-      <div class="formfield">
-        <input
-          class="button"
-          type="submit"
-          name="odeslat"
-          id="odeslat"
-          value="Odeslat formulář"
-        />
-      </div>
-    </form>
+        <div class="formfield">
+          <input
+            class="button"
+            type="submit"
+            name="odeslat"
+            id="odeslat"
+            value="Odeslat formulář"
+          />
+        </div>
+      </form>
+    </div>
   </div>
 </div>
