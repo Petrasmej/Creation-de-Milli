@@ -161,6 +161,7 @@ h3 {
 }
 .treatments__cena {
   margin-bottom: 0;
+  margin-left: 60px;
 }
 .treatments__table {
   display: flex;
