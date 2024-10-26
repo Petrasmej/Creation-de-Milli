@@ -11,7 +11,7 @@ html {
 body {
   font-family: "Sofia Sans", sans-serif;
   color: #595958;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.5;
   text-align: center;
@@ -239,6 +239,9 @@ h3 {
 }
 .footer__icon {
   height: 40px;
+}
+.footer__copyright {
+  font-size: 16px;
 }
 
 @media (min-width: 800px) {
