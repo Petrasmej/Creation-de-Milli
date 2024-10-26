@@ -409,7 +409,7 @@ h3 {
   .footer__flexbox {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: top;
     text-align: left;
   }
   .footer__icon {
