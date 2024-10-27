@@ -264,10 +264,12 @@ contact_grid {
 }
 
 .button {
-  background-color: #f2dfbb;
+  background-color: $color-special;
   border-radius: 4px;
-  border: 2px solid black;
+  border: 2px solid $color-primary;
   padding: 6px 12px;
+  color: $color-primary;
+  font-weight: 600;
 }
 
 /*******************************

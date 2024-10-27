@@ -248,8 +248,10 @@ contact_grid {
 .button {
   background-color: #f2dfbb;
   border-radius: 4px;
-  border: 2px solid black;
+  border: 2px solid #595958;
   padding: 6px 12px;
+  color: #595958;
+  font-weight: 600;
 }
 
 /*******************************
