@@ -130,6 +130,7 @@ h3 {
 *******************************/
 .brh1 {
   font-size: 2em;
+  display: none;
 }
 
 .kriteria {
@@ -350,6 +351,7 @@ contact_grid {
         BIOLOGIQUE RECHERCHE
     *******************************/
   .brh1 {
+    display: block;
     text-align: left;
     margin-bottom: 0;
     margin-top: 0;
