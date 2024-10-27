@@ -9,7 +9,7 @@ html {
 
 $color-primary: #595958;
 $color-headlines: #272a59;
-$color-special: #f2dfbb;
+$color-special: #f1e5cd;
 
 $font-base: 'Sofia Sans', sans-serif;
 $font-headlines: 'Cinzel', serif;
@@ -493,8 +493,6 @@ contact_grid {
     *******************************/
 
   .footer {
-    background-color: $color-special;
-
     &__flexbox {
       display: flex;
       justify-content: space-around;
