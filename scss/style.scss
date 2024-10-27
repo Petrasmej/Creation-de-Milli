@@ -26,6 +26,10 @@ body {
   margin: 0 auto;
 }
 
+a:link {
+  color: $color-headlines;
+}
+
 h1 {
   color: $color-headlines;
   font-family: $font-headlines;

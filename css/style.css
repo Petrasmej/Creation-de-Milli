@@ -18,6 +18,10 @@ body {
   margin: 0 auto;
 }
 
+a:link {
+  color: #272a59;
+}
+
 h1 {
   color: #272a59;
   font-family: "Cinzel", serif;
