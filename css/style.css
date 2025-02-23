@@ -182,6 +182,10 @@ h3 {
   text-align: left;
 }
 
+.storno {
+  margin-top: 60px;
+}
+
 .treatments_flex {
   display: flex;
   justify-content: space-between;
