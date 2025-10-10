@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box;
 }
@@ -217,6 +218,47 @@ h3 {
 }
 
 /*******************************
+        ESHOP
+*******************************/
+.btn-forever {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid #272a59;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.btn-forever:hover {
+  background-color: #f1e5cd;
+  border: 2px solid #272a59;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(39, 42, 89, 0.2);
+}
+
+.btn-forever:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(39, 42, 89, 0.15);
+}
+
+.eshop-right {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.foreverImg {
+  width: 280px;
+  border-radius: 8px;
+  margin: 30px auto 0 auto;
+}
+
+#odkazRight {
+  display: none;
+}
+
+/*******************************
         KONTAKT
 *******************************/
 contact_grid {
@@ -414,6 +456,45 @@ contact_grid {
     height: 100%;
     border-radius: 0;
     margin: 0;
+  }
+  /*******************************
+        ESHOP
+    *******************************/
+  .eshop-right {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; /* zarovnání pod sebe */
+    align-items: flex-start; /* nebo center, pokud chceš i vodorovně na střed */
+    height: 100%;
+  }
+  .btn-forever {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid #272a59;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+  }
+  .btn-forever:hover {
+    background-color: #f1e5cd;
+    border: 2px solid #272a59;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(39, 42, 89, 0.2);
+  }
+  .btn-forever:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(39, 42, 89, 0.15);
+  }
+  .foreverImg {
+    margin: 40px 0 0 0;
+  }
+  #odkazLeft {
+    display: none;
+  }
+  #odkazRight {
+    display: block;
   }
   /*******************************
         KONTAKT
