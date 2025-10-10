@@ -465,10 +465,10 @@ contact_grid {
         ESHOP
     *******************************/
   .eshop-right {
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
     display: flex;
     flex-direction: column; /* zarovnání pod sebe */
-    align-items: flex-start; /* nebo center, pokud chceš i vodorovně na střed */
+    align-items: center; /* nebo center, pokud chceš i vodorovně na střed */
     height: 100%;
   }
   .btn-forever {

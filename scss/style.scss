@@ -515,12 +515,13 @@ contact_grid {
     *******************************/
 
   .eshop-right {
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
     display: flex;
     flex-direction: column; /* zarovnání pod sebe */
-    align-items: flex-start; /* nebo center, pokud chceš i vodorovně na střed */
+    align-items: center; /* nebo center, pokud chceš i vodorovně na střed */
     height: 100%;
   }
+
   .btn-forever {
     display: inline-block;
     padding: 12px 24px;
