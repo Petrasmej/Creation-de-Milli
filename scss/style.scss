@@ -357,6 +357,7 @@ contact_grid {
 
   .menu {
     margin: $spacing 0;
+    margin-left: 420px;
 
     &__toggler {
       display: none;
@@ -364,7 +365,10 @@ contact_grid {
 
     &__list {
       display: flex !important;
-      justify-content: space-between;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      width: 100%;
     }
 
     &__item {
