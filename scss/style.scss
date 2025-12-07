@@ -266,7 +266,7 @@ h3 {
 }
 
 .foreverImg {
-  width: 280px;
+  width: 300px;
   border-radius: 8px;
   margin: 30px auto 0 auto;
 }
@@ -388,6 +388,12 @@ contact_grid {
   /*******************************
         UVOD
     *******************************/
+
+  .main_image {
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+  }
 
   .main__grid {
     display: grid;
@@ -547,6 +553,7 @@ contact_grid {
 
   .foreverImg {
     margin: 40px 0 0 0;
+    width: 400px;
   }
 
   #odkazLeft {
